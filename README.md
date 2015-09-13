@@ -8,18 +8,24 @@ NIPS 2015
 ## Requirements
 The code is in python but needs the following packages installed:
 * [Gurobi - Exact MAP solver](http://www.gurobi.com/)
-Check that the following works:
-```
-import gurobipy
-```
-* [Toulbar2 - Exact MAP solver](https://mulcyber.toulouse.inra.fr/projects/toulbar2/)
-` (version>=0.9.7.0)`
-I have attached the binary that I use. It contains a small modification to the way the output files are handled. 
 
-In order to use approximate MAP solvers, please install:
+```
+#Check that the following works in the python interpreter:
+>>>import gurobipy
+>>>
+```
+* [Toulbar2 - Exact MAP solver (version>=0.9.7.0)](https://mulcyber.toulouse.inra.fr/projects/toulbar2/)
+```
+I have attached a binary with the repo. It contains a small modification to the way the output files are handled. 
+```
+
+
 * [OpenGM - Approximate MAP solvers](http://hci.iwr.uni-heidelberg.de/opengm2/)
-Finally, copy over the uai2opengm binary to the folder "opengm-tools" and run the Makefile after modifying it to point
+```
+This is necessary in order to use approximate MAP solvers. 
+Copy over the uai2opengm binary to the folder "opengm-tools" and run the Makefile after modifying it to point
 to the appropriate binaries. 
+```
 
 * [Patched LibDAI - Comparison with TRWBP](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
 ```
