@@ -55,3 +55,4 @@ Create a subfolder with
 ## References
 - [libDAI](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
 - [OpenGM](http://hci.iwr.uni-heidelberg.de/opengm2/)
+- [toulbar2](https://mulcyber.toulouse.inra.fr/)
