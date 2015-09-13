@@ -18,7 +18,9 @@ The code also needs the following packages installed:
 ```
 * [Optional: Toulbar2 - Exact MAP solver (version>=0.9.7.0)](https://mulcyber.toulouse.inra.fr/projects/toulbar2/)
 ```
-I have attached a binary with the repo. It contains a small modification to the way the output files are handled. 
+Attached the source for toulbar2.0.9.7.0 
+Contains a small modification to the way the output files are handled.
+To see modifications, look at lines 1630-1650 in src/tb2main.cpp
 ```
 
 
