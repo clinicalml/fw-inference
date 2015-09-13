@@ -50,3 +50,8 @@ Ideally, the code would best be implemented in OpenGM's framework using Gurobi f
 
 Create a folder with the name of the experiment
 Create a subfolder with 
+
+
+## References
+- [libDAI](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
+- [OpenGM](http://hci.iwr.uni-heidelberg.de/opengm2/)
