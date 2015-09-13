@@ -44,7 +44,8 @@ This is not performed by default.
 
 
 ## Instructions
-This code involves several moving parts and cumbersome. Hopefully the following detailed instructions
+This code involves several moving parts and cumbersome. 
+Ideally, the code would best be implemented in OpenGM's framework using Gurobi for LP/ILP where applicable. 
 
 Create a folder with the name of the experiment
 Create a subfolder with 
