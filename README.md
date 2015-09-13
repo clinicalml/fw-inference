@@ -23,17 +23,19 @@ I have attached a binary with the repo. It contains a small modification to the 
 * [OpenGM - Approximate MAP solvers](http://hci.iwr.uni-heidelberg.de/opengm2/)
 ```
 This is necessary in order to use approximate MAP solvers. 
-Copy over the uai2opengm binary to the folder "opengm-tools" and run the Makefile after modifying it to point
-to the appropriate binaries. 
+1) Copy over the uai2opengm binary to the folder "opengm-tools" 
+2) Modify the Makefile to look for headers and libraries as appropriate
+3) Run 'make'
 ```
 
 * [Patched LibDAI - Comparison with TRWBP](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
 ```
+This is necessary for code used for comparisons with TRBP. 
 1) Download the source for libDAI
-2) IMPORTANT: Replacing the files trwbp.cpp and trwbp.h in libDAIs source code (src & include folder respectively). These files contain a wrapper that performs tightening of the optimization over the spanning tree polytope. 
+2) IMPORTANT: Replacing the files trwbp.cpp and trwbp.h in libDAIs source code (src & include folder respectively). These files contain a wrapper that performs tightening of the optimization over the spanning tree polytope. This is not performed by default.
 3) Build libDAI normally. 
 ```
-The code used for the comparisons with TRBP. 
+
 
 ## Instructions
 This code involves several moving parts and cumbersome. Hopefully the following detailed instructions
