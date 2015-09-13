@@ -6,7 +6,9 @@ R. Krishnan, S. Lacoste-Julien, D. Sontag
 NIPS 2015
 ```
 ## Requirements
-The code is built to run in python2.7 and needs the following packages installed:
+The code is built to run in python2.7. Numpy and Scipy are used for the matrix computations. 
+
+The code also needs the following packages installed:
 * [Required: Gurobi - Exact MAP solver](http://www.gurobi.com/)
 
 ```
