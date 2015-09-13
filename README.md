@@ -34,7 +34,9 @@ This is necessary in order to use approximate MAP solvers.
 ```
 This is necessary for code used for comparisons with TRBP. 
 1) Download the source for libDAI
-2) IMPORTANT: Replacing the files trwbp.cpp and trwbp.h in libDAIs source code (src & include folder respectively). These files contain a wrapper that performs tightening of the optimization over the spanning tree polytope. This is not performed by default.
+2) IMPORTANT: Replacing the files trwbp.cpp and trwbp.h in libDAIs source code (src & include folder respectively). 
+These files contain a wrapper that performs tightening of the optimization over the spanning tree polytope. 
+This is not performed by default.
 3) Build libDAI normally. 
 ```
 
