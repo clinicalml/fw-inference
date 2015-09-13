@@ -6,21 +6,21 @@ R. Krishnan, S. Lacoste-Julien, D. Sontag
 NIPS 2015
 ```
 ## Requirements
-The code is in python but needs the following packages installed:
-* [Gurobi - Exact MAP solver](http://www.gurobi.com/)
+The code is built to run in python2.7 and needs the following packages installed:
+* [Required: Gurobi - Exact MAP solver](http://www.gurobi.com/)
 
 ```
 #Check that the following works in the python interpreter:
 >>>import gurobipy
 >>>
 ```
-* [Toulbar2 - Exact MAP solver (version>=0.9.7.0)](https://mulcyber.toulouse.inra.fr/projects/toulbar2/)
+* [Optional: Toulbar2 - Exact MAP solver (version>=0.9.7.0)](https://mulcyber.toulouse.inra.fr/projects/toulbar2/)
 ```
 I have attached a binary with the repo. It contains a small modification to the way the output files are handled. 
 ```
 
 
-* [OpenGM - Approximate MAP solvers](http://hci.iwr.uni-heidelberg.de/opengm2/)
+* [Optional: OpenGM - Approximate MAP solvers](http://hci.iwr.uni-heidelberg.de/opengm2/)
 ```
 This is necessary in order to use approximate MAP solvers. 
 1) Copy over the uai2opengm binary to the folder "opengm-tools" 
@@ -28,7 +28,7 @@ This is necessary in order to use approximate MAP solvers.
 3) Run 'make'
 ```
 
-* [Patched LibDAI - Comparison with TRWBP](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
+* [Optional: Patched LibDAI - Comparison with TRWBP](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
 ```
 This is necessary for code used for comparisons with TRBP. 
 1) Download the source for libDAI
