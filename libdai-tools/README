@@ -1,0 +1,29 @@
+LibDAI-tools
+
+Rahul G. Krishnan
+rahul@cs.nyu.edu
+
+
+This is an external set of utility functions built around libDAI
+to run TRBP and TRBP w/ tightening.
+
+Instructions
+-----------
+1] Download libDAI [Code tested with v0.3.2 on Nov 1, 2015, Available at: https://staff.fnwi.uva.nl/j.m.mooij/libDAI/] to <path-to-libDAI>
+2] Copy the versions of trwbp.cpp and trwbp.h located in patch/ to <path-to-libDAI>/src/trwbp.cpp & <path-to-libDAI>/include/dai/trwbp.h respectively
+3] Build libDAI
+4] Modify Makefile to point INCLUDES_OPT and LFLAGS_OPT to the appropriate directory in step 3
+5] Run make
+	-This will create two binaries : trwbp (Runs TRWBP) and exact (Runs Junction Tree)
+6] The file runTRBPpar.py contains code to wrap around the created binary and run TRWBP with or without optimization
+Change the number of processes as desired since the code will run on multiple cores. 
+
+``python runTRBPpar.py" 
+
+should do the rest
+
+For example: 
+if __name__=='__main__':
+    mainfolder = '../RBM'   #Specify main folder containing models, in this case, RBMs 
+    runTRBP(mainfolder)		 #Specify which variant of TRBP to run- with/without optimizing rho
+    runTRBP_opt(mainfolder)
