@@ -51,6 +51,21 @@ Ideally, the code would best be implemented in OpenGM's framework using Gurobi f
 Create a folder with the name of the experiment
 Create a subfolder with 
 
+## Test Cases
+All instances that require approximate MAP will require OpenGM to be installed.
+
+Synthetic Results
+The github repository contains the bare minimum required for each of the Synthetic files.
+
+If you want to download all the Synthetic test cases without having to run them, 
+use the following link and run uncompress.sh
+https://www.dropbox.com/s/8z5axf978hsczmx/BarrierFW_NIPS15_TestCases.tar.bz2?dl=0
+
+Unfortunately the UAI files containing the models for the ChineseCharacters are too large (~2G) for github
+and so the shell directories have been made available here. 
+
+There are detailed instructions on how to run and get the results using approximate MAP in folder's README file.
+
 
 ## References
 - [libDAI](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
