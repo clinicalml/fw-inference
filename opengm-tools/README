@@ -1,0 +1,17 @@
+This folder contains a wrapper around OpenGM's tools for approximate MAP inference
+
+Rahul G. Krishnan
+rahul@cs.nyu.edu
+
+1] Install OpenGM [Tested on version OpenGM 2.3.5 http://hci.iwr.uni-heidelberg.de/opengm2/?l0=library] 
+1] Make sure that h5c++ is installed and accessible on your system. 
+	-This is to automatically compile and link with the requisite HDF5 libraries
+2] Be sure to modify the Makefile (INCLUDES,LFLAGS) in this directory so that the include statements correspond to your installation of opengm. 
+3] Copy over <path-to-opengm>/src/converter/uai2opengm to the directory here. This is necessary to convert from UAI to OpenGM 
+4] Run make 
+	-This should create the binary map_solver
+
+OpenGMs file format and documentation for how their models are saved was hard to come by.
+	-Unfortunately, this means that every MAP call first writes to UAI, converts to OpenGM's hdf5 format, 
+	performs MAP inference and writes a simple text output, which is then read back in python.....Not ideal and inefficient
+I know..... 

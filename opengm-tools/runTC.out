@@ -1,0 +1,114 @@
+Running test cases
+Deleting old results...
+make: Nothing to be done for `all'.
+tc1
+# Arguments: 6
+3 6
+Running LazyFlipper
+L0:0 L1:0 L2:1 Running Inference
+MAP Result: -6.42665 Bound: -inf
+R0:0 R1:1 R2:1 
+real	0m0.014s
+user	0m0.004s
+sys	0m0.005s
+# Arguments: 4
+3 6
+Runnign TRWS
+Running Inference
+MAP Result: -6.42665 Bound: -6.42665
+R0:0 R1:1 R2:1 
+real	0m0.012s
+user	0m0.005s
+sys	0m0.004s
+# Arguments: 4
+3 6
+Running QPBO
+Running Inference
+MAP Result: -6.42665 Bound: -6.42665
+R0:0 R1:1 R2:1 
+real	0m0.014s
+user	0m0.002s
+sys	0m0.007s
+# Arguments: 4
+3 6
+Runnign Dual Decomposition
+Running Inference
+MAP Result: -6.42664854086603 Bound: -6.42664854086603
+R0:0 R1:1 R2:1 
+real	0m0.014s
+user	0m0.003s
+sys	0m0.008s
+tc2
+# Arguments: 6
+10 55
+Running LazyFlipper
+L0:1 L1:1 L2:0 L3:0 L4:1 L5:0 L6:1 L7:0 L8:0 L9:1 Running Inference
+MAP Result: -8.10107 Bound: -inf
+R0:1 R1:0 R2:1 R3:1 R4:1 R5:0 R6:0 R7:1 R8:1 R9:1 
+real	0m0.021s
+user	0m0.012s
+sys	0m0.005s
+# Arguments: 4
+10 55
+Runnign TRWS
+Running Inference
+MAP Result: -7.09871 Bound: -13.4546
+R0:0 R1:0 R2:0 R3:0 R4:1 R5:1 R6:0 R7:0 R8:1 R9:0 
+real	0m0.017s
+user	0m0.012s
+sys	0m0.003s
+# Arguments: 4
+10 55
+Running QPBO
+Running Inference
+MAP Result: 0 Bound: -13.4546
+R0:0 R1:0 R2:0 R3:0 R4:0 R5:0 R6:0 R7:0 R8:0 R9:0 
+real	0m0.012s
+user	0m0.006s
+sys	0m0.003s
+# Arguments: 4
+10 55
+Runnign Dual Decomposition
+Running Inference
+MAP Result: -8.73112334707391 Bound: -14.8554371261636
+R0:1 R1:1 R2:1 R3:0 R4:1 R5:1 R6:0 R7:0 R8:1 R9:0 
+real	0m0.431s
+user	0m0.425s
+sys	0m0.003s
+tc3
+# Arguments: 6
+25 65
+Running LazyFlipper
+L0:1 L1:1 L2:0 L3:0 L4:1 L5:0 L6:1 L7:0 L8:0 L9:1 L10:1 L11:1 L12:0 L13:0 L14:1 L15:0 L16:1 L17:0 L18:0 L19:1 L20:0 L21:1 L22:0 L23:0 L24:1 Running Inference
+MAP Result: -47.4895 Bound: -inf
+R0:0 R1:1 R2:1 R3:1 R4:1 R5:0 R6:1 R7:1 R8:1 R9:0 R10:0 R11:0 R12:1 R13:0 R14:0 R15:0 R16:1 R17:0 R18:1 R19:1 R20:0 R21:0 R22:1 R23:0 R24:1 
+real	0m0.015s
+user	0m0.005s
+sys	0m0.006s
+# Arguments: 4
+25 65
+Runnign TRWS
+Running Inference
+MAP Result: -46.5772 Bound: -48.6113
+R0:0 R1:1 R2:1 R3:1 R4:1 R5:0 R6:1 R7:1 R8:1 R9:0 R10:1 R11:1 R12:1 R13:0 R14:0 R15:1 R16:0 R17:0 R18:1 R19:1 R20:1 R21:0 R22:1 R23:0 R24:1 
+real	0m0.026s
+user	0m0.017s
+sys	0m0.006s
+# Arguments: 4
+25 65
+Running QPBO
+Running Inference
+MAP Result: -43.4128 Bound: -48.6113
+R0:0 R1:1 R2:1 R3:1 R4:1 R5:0 R6:1 R7:1 R8:1 R9:0 R10:0 R11:0 R12:1 R13:0 R14:0 R15:0 R16:0 R17:0 R18:1 R19:1 R20:0 R21:0 R22:1 R23:0 R24:1 
+real	0m0.013s
+user	0m0.004s
+sys	0m0.005s
+# Arguments: 4
+25 65
+Runnign Dual Decomposition
+Running Inference
+MAP Result: -47.4895186352373 Bound: -48.6774017131186
+R0:0 R1:1 R2:1 R3:1 R4:1 R5:0 R6:1 R7:1 R8:1 R9:0 R10:0 R11:0 R12:1 R13:0 R14:0 R15:0 R16:1 R17:0 R18:1 R19:1 R20:0 R21:0 R22:1 R23:0 R24:1 
+real	0m0.226s
+user	0m0.213s
+sys	0m0.008s
