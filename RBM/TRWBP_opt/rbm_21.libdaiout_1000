@@ -1,0 +1,134 @@
+# Arguments: 7
+Modifying rho_its
+Modifying maxits
+Modifying damping_in
+Modifying nrtrees
+Running with [damping=0.9,logdomain=1,maxiter=1000,nrtrees=1000,rho_its=10,tol=1e-05,updates=SEQRND,verbose=1]
+Time Elapsed INIT: 0.49
+Starting TRWBP[tol=1e-05,maxiter=1000,maxtime=inf,verbose=1,logdomain=1,updates=SEQRND,damping=0.9,inference=SUMPROD,nrtrees=1000],rho_its=10]...Running 10 tightening steps
+[1]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (10.2952 seconds)...final maxdiff:6.79834e-05
+[1] Done. Stats: It: 1000 Maxdiff: 6.79834e-05 LogZ: 339.172
+	Staring line search. LogZ: 339.172 c=0.8 tau=0.5 alpha=0.9 m=-2.84777
+	f_next: 340.607 f(x+alpha*p)-f(x)=1.43456 alpha*c*m=-2.0504
+	 Updating alpha to0.45
+	f_next: 338.391 f(x+alpha*p)-f(x)=-0.7812 alpha*c*m=-1.0252
+	 Updating alpha to0.225
+	f_next: 338.606 f(x+alpha*p)-f(x)=-0.566453 alpha*c*m=-0.512599
+	Done line search. alpha* = 0.225
+[2]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (10.3136 seconds)...final maxdiff:4.04384e-05
+[2] Done. Stats: It: 1000 Maxdiff: 4.04384e-05 LogZ: 338.606
+	Staring line search. LogZ: 338.606 c=0.8 tau=0.5 alpha=0.9 m=-1.77001
+	f_next: 341.397 f(x+alpha*p)-f(x)=2.79113 alpha*c*m=-1.27441
+	 Updating alpha to0.45
+	f_next: 338.347 f(x+alpha*p)-f(x)=-0.258636 alpha*c*m=-0.637205
+	 Updating alpha to0.225
+	f_next: 338.273 f(x+alpha*p)-f(x)=-0.333141 alpha*c*m=-0.318602
+	Done line search. alpha* = 0.225
+[3]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (8.95483 seconds)...final maxdiff:3.74654e-05
+[3] Done. Stats: It: 1000 Maxdiff: 3.74654e-05 LogZ: 338.273
+	Staring line search. LogZ: 338.273 c=0.8 tau=0.5 alpha=0.9 m=-1.12409
+	f_next: 343.601 f(x+alpha*p)-f(x)=5.32873 alpha*c*m=-0.809343
+	 Updating alpha to0.45
+	f_next: 338.633 f(x+alpha*p)-f(x)=0.360203 alpha*c*m=-0.404672
+	 Updating alpha to0.225
+	f_next: 338.112 f(x+alpha*p)-f(x)=-0.160155 alpha*c*m=-0.202336
+	 Updating alpha to0.1125
+	f_next: 338.156 f(x+alpha*p)-f(x)=-0.117065 alpha*c*m=-0.101168
+	Done line search. alpha* = 0.1125
+[4]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (8.89115 seconds)...final maxdiff:2.82703e-05
+[4] Done. Stats: It: 1000 Maxdiff: 2.82703e-05 LogZ: 338.156
+	Staring line search. LogZ: 338.156 c=0.8 tau=0.5 alpha=0.9 m=-0.853835
+	f_next: 343.3 f(x+alpha*p)-f(x)=5.14456 alpha*c*m=-0.614761
+	 Updating alpha to0.45
+	f_next: 338.622 f(x+alpha*p)-f(x)=0.466802 alpha*c*m=-0.307381
+	 Updating alpha to0.225
+	f_next: 338.064 f(x+alpha*p)-f(x)=-0.0920852 alpha*c*m=-0.15369
+	 Updating alpha to0.1125
+	f_next: 338.072 f(x+alpha*p)-f(x)=-0.0839822 alpha*c*m=-0.0768451
+	Done line search. alpha* = 0.1125
+[5]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (9.05155 seconds)...final maxdiff:3.20636e-05
+[5] Done. Stats: It: 1000 Maxdiff: 3.20636e-05 LogZ: 338.072
+	Staring line search. LogZ: 338.072 c=0.8 tau=0.5 alpha=0.9 m=-0.66392
+	f_next: 344.66 f(x+alpha*p)-f(x)=6.58823 alpha*c*m=-0.478022
+	 Updating alpha to0.45
+	f_next: 338.967 f(x+alpha*p)-f(x)=0.895605 alpha*c*m=-0.239011
+	 Updating alpha to0.225
+	f_next: 338.057 f(x+alpha*p)-f(x)=-0.0144446 alpha*c*m=-0.119506
+	 Updating alpha to0.1125
+	f_next: 338.01 f(x+alpha*p)-f(x)=-0.0618398 alpha*c*m=-0.0597528
+	Done line search. alpha* = 0.1125
+[6]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (9.29167 seconds)...final maxdiff:3.08603e-05
+[6] Done. Stats: It: 1000 Maxdiff: 3.08603e-05 LogZ: 338.01
+	Staring line search. LogZ: 338.01 c=0.8 tau=0.5 alpha=0.9 m=-0.534797
+	f_next: 344.429 f(x+alpha*p)-f(x)=6.41971 alpha*c*m=-0.385054
+	 Updating alpha to0.45
+	f_next: 339.024 f(x+alpha*p)-f(x)=1.01423 alpha*c*m=-0.192527
+	 Updating alpha to0.225
+	f_next: 338.044 f(x+alpha*p)-f(x)=0.034233 alpha*c*m=-0.0962635
+	 Updating alpha to0.1125
+	f_next: 337.966 f(x+alpha*p)-f(x)=-0.0435288 alpha*c*m=-0.0481318
+	 Updating alpha to0.05625
+	f_next: 337.98 f(x+alpha*p)-f(x)=-0.030204 alpha*c*m=-0.0240659
+	Done line search. alpha* = 0.05625
+[7]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (10.4949 seconds)...final maxdiff:3.04942e-05
+[7] Done. Stats: It: 1000 Maxdiff: 3.04942e-05 LogZ: 337.98
+	Staring line search. LogZ: 337.98 c=0.8 tau=0.5 alpha=0.9 m=-0.462205
+	f_next: 343.828 f(x+alpha*p)-f(x)=5.84816 alpha*c*m=-0.332788
+	 Updating alpha to0.45
+	f_next: 338.927 f(x+alpha*p)-f(x)=0.947437 alpha*c*m=-0.166394
+	 Updating alpha to0.225
+	f_next: 338.023 f(x+alpha*p)-f(x)=0.0429901 alpha*c*m=-0.0831969
+	 Updating alpha to0.1125
+	f_next: 337.942 f(x+alpha*p)-f(x)=-0.037908 alpha*c*m=-0.0415984
+	 Updating alpha to0.05625
+	f_next: 337.954 f(x+alpha*p)-f(x)=-0.0256239 alpha*c*m=-0.0207992
+	Done line search. alpha* = 0.05625
+[8]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (7.85854 seconds)...final maxdiff:3.02239e-05
+[8] Done. Stats: It: 1000 Maxdiff: 3.02239e-05 LogZ: 337.954
+	Staring line search. LogZ: 337.954 c=0.8 tau=0.5 alpha=0.9 m=-0.400198
+	f_next: 342.55 f(x+alpha*p)-f(x)=4.5956 alpha*c*m=-0.288143
+	 Updating alpha to0.45
+	f_next: 338.608 f(x+alpha*p)-f(x)=0.654364 alpha*c*m=-0.144071
+	 Updating alpha to0.225
+	f_next: 337.966 f(x+alpha*p)-f(x)=0.0122717 alpha*c*m=-0.0720357
+	 Updating alpha to0.1125
+	f_next: 337.919 f(x+alpha*p)-f(x)=-0.0346503 alpha*c*m=-0.0360179
+	 Updating alpha to0.05625
+	f_next: 337.932 f(x+alpha*p)-f(x)=-0.0222532 alpha*c*m=-0.0180089
+	Done line search. alpha* = 0.05625
+[9]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (7.76682 seconds)...final maxdiff:2.77754e-05
+[9] Done. Stats: It: 1000 Maxdiff: 2.77754e-05 LogZ: 337.932
+	Staring line search. LogZ: 337.932 c=0.8 tau=0.5 alpha=0.9 m=-0.346164
+	f_next: 343.543 f(x+alpha*p)-f(x)=5.61139 alpha*c*m=-0.249238
+	 Updating alpha to0.45
+	f_next: 339.015 f(x+alpha*p)-f(x)=1.08292 alpha*c*m=-0.124619
+	 Updating alpha to0.225
+	f_next: 338.034 f(x+alpha*p)-f(x)=0.10247 alpha*c*m=-0.0623096
+	 Updating alpha to0.1125
+	f_next: 337.911 f(x+alpha*p)-f(x)=-0.0206059 alpha*c*m=-0.0311548
+	 Updating alpha to0.05625
+	f_next: 337.913 f(x+alpha*p)-f(x)=-0.0186921 alpha*c*m=-0.0155774
+	Done line search. alpha* = 0.05625
+[10]  Running Marginal Inference
+
+TRWBP::run:  WARNING: not converged after 1000 passes (7.91937 seconds)...final maxdiff:3.03307e-05
+[10] Done. Stats: It: 1000 Maxdiff: 3.03307e-05 LogZ: 337.913
+Time Elapsed RUN 433.05
