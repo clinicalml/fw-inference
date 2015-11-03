@@ -1,0 +1,12 @@
+scripts
+-------
+Contains python scripts for different tasks
+
+convertSynthetic.py : Convert from David's graph representation into UAI or Tamir's file format
+
+Steps for driver-Setup.py
+1] computeExact		: Convert UAI to FG and compute exact values using JT
+2] exactToMat.py       : Reads in the output of libDAI's JT and converts it into MATLAB format for analysis
+3] runTRWBP.py 		: Run TRWBP with libDAI
+4] trwToMAT.py 		: Converts the result of trwbp to MATLAB
+5] convertUAItoMAT.py  : Converts UAI files to the MATLAB format required to read Fields,List,Cardinality etc.
