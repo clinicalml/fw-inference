@@ -1,4 +1,8 @@
 # fw-inference
+
+NOTE: This repository is still under construction!!!
+
+
 This contains code corresponding to the paper
 ```
 Barrier Frank-Wolfe for Marginal Inference
@@ -57,12 +61,17 @@ All instances that require approximate MAP will require OpenGM to be installed.
 Synthetic Results
 The github repository contains the bare minimum required for each of the Synthetic files.
 
+
+
 If you want to download all the Synthetic test cases without having to run them, 
 use the following link and run uncompress.sh
 https://www.dropbox.com/s/8z5axf978hsczmx/BarrierFW_NIPS15_TestCases.tar.bz2?dl=0
 
 Unfortunately the UAI files containing the models for the ChineseCharacters are too large (~2G) for github
 and so the shell directories have been made available here. 
+https://www.dropbox.com/s/9oxtoxfm2y2298s/BarrierFW_NIPS15_ChineseChar.tar.bz2?dl=0
+
+To download this file, run getChineseChar.sh
 
 There are detailed instructions on how to run and get the results using approximate MAP in folder's README file.
 
