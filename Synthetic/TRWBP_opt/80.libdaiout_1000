@@ -1,0 +1,152 @@
+# Arguments: 7
+Modifying rho_its
+Modifying maxits
+Modifying damping_in
+Modifying nrtrees
+Running with [damping=0.9,logdomain=1,maxiter=10000,nrtrees=1000,rho_its=10,tol=1e-05,updates=SEQRND,verbose=1]
+Time Elapsed INIT: 0.04
+Starting TRWBP[tol=1e-05,maxiter=10000,maxtime=inf,verbose=1,logdomain=1,updates=SEQRND,damping=0.9,inference=SUMPROD,nrtrees=1000],rho_its=10]...Running 10 tightening steps
+[1]  Running Marginal Inference
+converged in 451 passes (0.320436 seconds).
+[1] Done. Stats: It: 451 Maxdiff: 7.82416e-06 LogZ: 11.817
+	Staring line search. LogZ: 11.8168 c=0.8 tau=0.5 alpha=0.9 m=-1.93648
+	f_next: 12.7562 f(x+alpha*p)-f(x)=0.939402 alpha*c*m=-1.39426
+	 Updating alpha to0.45
+	f_next: 11.6737 f(x+alpha*p)-f(x)=-0.143107 alpha*c*m=-0.697132
+	 Updating alpha to0.225
+	f_next: 11.5605 f(x+alpha*p)-f(x)=-0.256319 alpha*c*m=-0.348566
+	 Updating alpha to0.1125
+	f_next: 11.6405 f(x+alpha*p)-f(x)=-0.176345 alpha*c*m=-0.174283
+	Done line search. alpha* = 0.1125
+[2]  Running Marginal Inference
+converged in 395 passes (0.279653 seconds).
+[2] Done. Stats: It: 395 Maxdiff: 9.98975e-06 LogZ: 11.6405
+	Staring line search. LogZ: 11.6404 c=0.8 tau=0.5 alpha=0.9 m=-1.37403
+	f_next: 13.2236 f(x+alpha*p)-f(x)=1.58315 alpha*c*m=-0.9893
+	 Updating alpha to0.45
+	f_next: 11.8662 f(x+alpha*p)-f(x)=0.225731 alpha*c*m=-0.49465
+	 Updating alpha to0.225
+	f_next: 11.5649 f(x+alpha*p)-f(x)=-0.07556 alpha*c*m=-0.247325
+	 Updating alpha to0.1125
+	f_next: 11.5458 f(x+alpha*p)-f(x)=-0.0945983 alpha*c*m=-0.123662
+	 Updating alpha to0.05625
+	f_next: 11.578 f(x+alpha*p)-f(x)=-0.0624698 alpha*c*m=-0.0618312
+	Done line search. alpha* = 0.05625
+[3]  Running Marginal Inference
+converged in 384 passes (0.267759 seconds).
+[3] Done. Stats: It: 384 Maxdiff: 9.96543e-06 LogZ: 11.578
+	Staring line search. LogZ: 11.578 c=0.8 tau=0.5 alpha=0.9 m=-1.21024
+	f_next: 13.1817 f(x+alpha*p)-f(x)=1.60371 alpha*c*m=-0.87137
+	 Updating alpha to0.45
+	f_next: 11.8542 f(x+alpha*p)-f(x)=0.276262 alpha*c*m=-0.435685
+	 Updating alpha to0.225
+	f_next: 11.5371 f(x+alpha*p)-f(x)=-0.0408488 alpha*c*m=-0.217842
+	 Updating alpha to0.1125
+	f_next: 11.5025 f(x+alpha*p)-f(x)=-0.0754747 alpha*c*m=-0.108921
+	 Updating alpha to0.05625
+	f_next: 11.5251 f(x+alpha*p)-f(x)=-0.0528496 alpha*c*m=-0.0544606
+	 Updating alpha to0.028125
+	f_next: 11.5477 f(x+alpha*p)-f(x)=-0.0302707 alpha*c*m=-0.0272303
+	Done line search. alpha* = 0.028125
+[4]  Running Marginal Inference
+converged in 392 passes (0.277327 seconds).
+[4] Done. Stats: It: 392 Maxdiff: 9.70915e-06 LogZ: 11.5477
+	Staring line search. LogZ: 11.5477 c=0.8 tau=0.5 alpha=0.9 m=-1.07363
+	f_next: 13.1579 f(x+alpha*p)-f(x)=1.61025 alpha*c*m=-0.773015
+	 Updating alpha to0.45
+	f_next: 11.847 f(x+alpha*p)-f(x)=0.299291 alpha*c*m=-0.386507
+	 Updating alpha to0.225
+	f_next: 11.5266 f(x+alpha*p)-f(x)=-0.0211211 alpha*c*m=-0.193254
+	 Updating alpha to0.1125
+	f_next: 11.4849 f(x+alpha*p)-f(x)=-0.062752 alpha*c*m=-0.0966268
+	 Updating alpha to0.05625
+	f_next: 11.502 f(x+alpha*p)-f(x)=-0.0456442 alpha*c*m=-0.0483134
+	 Updating alpha to0.028125
+	f_next: 11.5212 f(x+alpha*p)-f(x)=-0.0264941 alpha*c*m=-0.0241567
+	Done line search. alpha* = 0.028125
+[5]  Running Marginal Inference
+converged in 399 passes (0.282735 seconds).
+[5] Done. Stats: It: 399 Maxdiff: 9.64481e-06 LogZ: 11.5212
+	Staring line search. LogZ: 11.5212 c=0.8 tau=0.5 alpha=0.9 m=-0.959891
+	f_next: 12.9985 f(x+alpha*p)-f(x)=1.4773 alpha*c*m=-0.691121
+	 Updating alpha to0.45
+	f_next: 11.7649 f(x+alpha*p)-f(x)=0.243741 alpha*c*m=-0.345561
+	 Updating alpha to0.225
+	f_next: 11.4886 f(x+alpha*p)-f(x)=-0.0325828 alpha*c*m=-0.17278
+	 Updating alpha to0.1125
+	f_next: 11.4606 f(x+alpha*p)-f(x)=-0.0605635 alpha*c*m=-0.0863902
+	 Updating alpha to0.05625
+	f_next: 11.479 f(x+alpha*p)-f(x)=-0.0421344 alpha*c*m=-0.0431951
+	 Updating alpha to0.028125
+	f_next: 11.4971 f(x+alpha*p)-f(x)=-0.0240836 alpha*c*m=-0.0215975
+	Done line search. alpha* = 0.028125
+[6]  Running Marginal Inference
+converged in 355 passes (0.251027 seconds).
+[6] Done. Stats: It: 355 Maxdiff: 9.83866e-06 LogZ: 11.4971
+	Staring line search. LogZ: 11.4971 c=0.8 tau=0.5 alpha=0.9 m=-0.871392
+	f_next: 12.9637 f(x+alpha*p)-f(x)=1.46657 alpha*c*m=-0.627402
+	 Updating alpha to0.45
+	f_next: 11.7579 f(x+alpha*p)-f(x)=0.26084 alpha*c*m=-0.313701
+	 Updating alpha to0.225
+	f_next: 11.4779 f(x+alpha*p)-f(x)=-0.0192096 alpha*c*m=-0.156851
+	 Updating alpha to0.1125
+	f_next: 11.4445 f(x+alpha*p)-f(x)=-0.0525492 alpha*c*m=-0.0784253
+	 Updating alpha to0.05625
+	f_next: 11.4595 f(x+alpha*p)-f(x)=-0.0375853 alpha*c*m=-0.0392126
+	 Updating alpha to0.028125
+	f_next: 11.4754 f(x+alpha*p)-f(x)=-0.0216631 alpha*c*m=-0.0196063
+	Done line search. alpha* = 0.028125
+[7]  Running Marginal Inference
+converged in 363 passes (0.255232 seconds).
+[7] Done. Stats: It: 363 Maxdiff: 9.93753e-06 LogZ: 11.4754
+	Staring line search. LogZ: 11.4754 c=0.8 tau=0.5 alpha=0.9 m=-0.818605
+	f_next: 13.1896 f(x+alpha*p)-f(x)=1.7142 alpha*c*m=-0.589396
+	 Updating alpha to0.45
+	f_next: 11.8352 f(x+alpha*p)-f(x)=0.359743 alpha*c*m=-0.294698
+	 Updating alpha to0.225
+	f_next: 11.4948 f(x+alpha*p)-f(x)=0.019355 alpha*c*m=-0.147349
+	 Updating alpha to0.1125
+	f_next: 11.4371 f(x+alpha*p)-f(x)=-0.0383614 alpha*c*m=-0.0736744
+	 Updating alpha to0.05625
+	f_next: 11.4432 f(x+alpha*p)-f(x)=-0.0322642 alpha*c*m=-0.0368372
+	 Updating alpha to0.028125
+	f_next: 11.4559 f(x+alpha*p)-f(x)=-0.0195244 alpha*c*m=-0.0184186
+	Done line search. alpha* = 0.028125
+[8]  Running Marginal Inference
+converged in 320 passes (0.230459 seconds).
+[8] Done. Stats: It: 320 Maxdiff: 9.83491e-06 LogZ: 11.4559
+	Staring line search. LogZ: 11.4559 c=0.8 tau=0.5 alpha=0.9 m=-0.800271
+	f_next: 13.5255 f(x+alpha*p)-f(x)=2.06957 alpha*c*m=-0.576195
+	 Updating alpha to0.45
+	f_next: 11.9836 f(x+alpha*p)-f(x)=0.527713 alpha*c*m=-0.288098
+	 Updating alpha to0.225
+	f_next: 11.5386 f(x+alpha*p)-f(x)=0.0826596 alpha*c*m=-0.144049
+	 Updating alpha to0.1125
+	f_next: 11.438 f(x+alpha*p)-f(x)=-0.0179019 alpha*c*m=-0.0720244
+	 Updating alpha to0.05625
+	f_next: 11.4297 f(x+alpha*p)-f(x)=-0.0262228 alpha*c*m=-0.0360122
+	 Updating alpha to0.028125
+	f_next: 11.4382 f(x+alpha*p)-f(x)=-0.0177203 alpha*c*m=-0.0180061
+	 Updating alpha to0.0140625
+	f_next: 11.4458 f(x+alpha*p)-f(x)=-0.0100592 alpha*c*m=-0.00900305
+	Done line search. alpha* = 0.0140625
+[9]  Running Marginal Inference
+converged in 326 passes (0.23744 seconds).
+[9] Done. Stats: It: 326 Maxdiff: 9.92815e-06 LogZ: 11.4459
+	Staring line search. LogZ: 11.4458 c=0.8 tau=0.5 alpha=0.9 m=-0.747166
+	f_next: 12.933 f(x+alpha*p)-f(x)=1.48715 alpha*c*m=-0.537959
+	 Updating alpha to0.45
+	f_next: 11.7344 f(x+alpha*p)-f(x)=0.288593 alpha*c*m=-0.26898
+	 Updating alpha to0.225
+	f_next: 11.4475 f(x+alpha*p)-f(x)=0.00163179 alpha*c*m=-0.13449
+	 Updating alpha to0.1125
+	f_next: 11.4055 f(x+alpha*p)-f(x)=-0.040383 alpha*c*m=-0.0672449
+	 Updating alpha to0.05625
+	f_next: 11.4149 f(x+alpha*p)-f(x)=-0.0308928 alpha*c*m=-0.0336225
+	 Updating alpha to0.028125
+	f_next: 11.4276 f(x+alpha*p)-f(x)=-0.0182849 alpha*c*m=-0.0168112
+	Done line search. alpha* = 0.028125
+[10]  Running Marginal Inference
+converged in 285 passes (0.206548 seconds).
+[10] Done. Stats: It: 285 Maxdiff: 9.90024e-06 LogZ: 11.4276
+Time Elapsed RUN 50.86
