@@ -1,0 +1,736 @@
+2015-01-30 17:05  allouche
+
+	* [r1008] /trunk/toulbar2/src/incop/timer.cpp,
+	  /trunk/toulbar2/src/tb2main.cpp: [bugs] incop is now available
+	  under windows and Linux version. Timer is not available under
+	  windows OS
+
+2015-01-29 14:03  allouche
+
+	* [r1007] /trunk/toulbar2/src/incop/incop.h,
+	  /trunk/toulbar2/src/incop/incopalgo.cpp,
+	  /trunk/toulbar2/src/incop/incoputil.cpp,
+	  /trunk/toulbar2/src/incop/timer.cpp,
+	  /trunk/toulbar2/src/incop/timer.h,
+	  /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2system.hpp: [bug] incop correction : Timer
+	  remove under windows OS (not supported by mingw cross compiler)
+
+2015-01-29 13:36  allouche
+
+	* [r1006] /trunk/toulbar2/validation/decomposable/test-opt.cmake:
+	  [misc] solution checking for global contraint test case
+
+2015-01-28 09:48  allouche
+
+	* [r1005] /trunk/toulbar2/CMakeLists.txt,
+	  /trunk/toulbar2/cmake-script/package.cmake: [bugs] cpack
+	  architecture option has been update for rpm generation
+
+2015-01-27 15:18  allouche
+
+	* [r1004] /trunk/toulbar2/cover/cover-option.cmake: [misc] too
+	  longer cover test have been removed
+
+2015-01-27 14:46  allouche
+
+	* [r1003] /trunk/toulbar2/validation/decomposable/B1-LU04-dec.ub,
+	  /trunk/toulbar2/validation/decomposable/B1-LU04-test.ub,
+	  /trunk/toulbar2/validation/decomposable/walldiff_simple.ub,
+	  /trunk/toulbar2/validation/decomposable/wamong_hard.ub,
+	  /trunk/toulbar2/validation/decomposable/wamong_lin.ub,
+	  /trunk/toulbar2/validation/decomposable/wamong_quad.ub,
+	  /trunk/toulbar2/validation/decomposable/wgcc_simple.ub,
+	  /trunk/toulbar2/validation/decomposable/woverlap.ub,
+	  /trunk/toulbar2/validation/decomposable/wregular.ub,
+	  /trunk/toulbar2/validation/decomposable/wsame_simple.ub,
+	  /trunk/toulbar2/validation/decomposable/wsamegcc_simple.ub,
+	  /trunk/toulbar2/validation/decomposable/wsum_hard.ub,
+	  /trunk/toulbar2/validation/decomposable/wsum_lin.ub,
+	  /trunk/toulbar2/validation/decomposable/wsum_quad.ub,
+	  /trunk/toulbar2/validation/decomposable/wvarmaong.ub: [misc]
+	  global cost function: testcase solution
+
+2015-01-13 16:12  degivry
+
+	* [r1002] /trunk/toulbar2/doc/DecomposableGlobalCostFunctions.html:
+	  [doc] updates documentation on global cost functions
+
+2015-01-13 16:12  degivry
+
+	* [r1001] /trunk/toulbar2/src/tb2reader.cpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp, /trunk/toulbar2/src/tb2wcsp.hpp,
+	  /trunk/toulbar2/src/toulbar2lib.hpp: [doc] updates documentation
+	  on global cost functions
+
+2015-01-05 08:37  degivry
+
+	* [r1000] /trunk/toulbar2/CMakeLists.txt: [code] global cost
+	  functions based on linear programming are untested, should not be
+	  used for the moment
+
+2015-01-05 08:36  degivry
+
+	* [r999] /trunk/toulbar2/cmake-script/source_files.cmake: [code]
+	  global cost functions based on linear programming are untested,
+	  should not be used for the moment
+
+2015-01-05 08:36  degivry
+
+	* [r998] /trunk/toulbar2/misc/script/Makefile: [code] global cost
+	  functions based on linear programming are untested, should not be
+	  used for the moment
+
+2015-01-05 08:36  degivry
+
+	* [r997] /trunk/toulbar2/src/tb2wcsp.cpp: [code] global cost
+	  functions based on linear programming are untested, should not be
+	  used for the moment
+
+2015-01-05 08:30  degivry
+
+	* [r996] /trunk/toulbar2/src/tb2graph.cpp,
+	  /trunk/toulbar2/src/tb2graph.hpp: [error] bug correction in
+	  shortest path with negative costs
+
+2014-12-24 10:55  degivry
+
+	* [r994] /trunk/toulbar2/src/tb2regularconstr.cpp,
+	  /trunk/toulbar2/src/tb2regularconstr.hpp: [option] new dynamic
+	  programming based global cost functions by CUHK
+
+2014-12-24 10:54  degivry
+
+	* [r993] /trunk/toulbar2/src/tb2alldiffconstr.cpp,
+	  /trunk/toulbar2/src/tb2alldiffconstr.hpp,
+	  /trunk/toulbar2/src/tb2amongconstr.cpp,
+	  /trunk/toulbar2/src/tb2amongconstr.hpp,
+	  /trunk/toulbar2/src/tb2automaton.hpp,
+	  /trunk/toulbar2/src/tb2binconstr.cpp,
+	  /trunk/toulbar2/src/tb2dpglobalconstr.cpp,
+	  /trunk/toulbar2/src/tb2dpglobalconstr.hpp,
+	  /trunk/toulbar2/src/tb2enumvar.cpp,
+	  /trunk/toulbar2/src/tb2enumvar.hpp,
+	  /trunk/toulbar2/src/tb2flowbasedconstr.cpp,
+	  /trunk/toulbar2/src/tb2flowbasedconstr.hpp,
+	  /trunk/toulbar2/src/tb2globalcardinalityconstr.cpp,
+	  /trunk/toulbar2/src/tb2globalcardinalityconstr.hpp,
+	  /trunk/toulbar2/src/tb2globalconstr.cpp,
+	  /trunk/toulbar2/src/tb2globalconstr.hpp,
+	  /trunk/toulbar2/src/tb2globaldecomposable.cpp,
+	  /trunk/toulbar2/src/tb2grammarconstr.cpp,
+	  /trunk/toulbar2/src/tb2grammarconstr.hpp,
+	  /trunk/toulbar2/src/tb2graph.cpp,
+	  /trunk/toulbar2/src/tb2graph.hpp,
+	  /trunk/toulbar2/src/tb2linearconstr.cpp,
+	  /trunk/toulbar2/src/tb2linearconstr.hpp,
+	  /trunk/toulbar2/src/tb2lpsconstr.cpp,
+	  /trunk/toulbar2/src/tb2lpsconstr.hpp,
+	  /trunk/toulbar2/src/tb2maxconstr.cpp,
+	  /trunk/toulbar2/src/tb2maxconstr.hpp,
+	  /trunk/toulbar2/src/tb2mipsolver.cpp,
+	  /trunk/toulbar2/src/tb2mipsolver.hpp,
+	  /trunk/toulbar2/src/tb2rangeminquery.hpp,
+	  /trunk/toulbar2/src/tb2reader.cpp,
+	  /trunk/toulbar2/src/tb2regularDPconstr.cpp,
+	  /trunk/toulbar2/src/tb2regularDPconstr.hpp,
+	  /trunk/toulbar2/src/tb2regularflowconstr.cpp,
+	  /trunk/toulbar2/src/tb2regularflowconstr.hpp,
+	  /trunk/toulbar2/src/tb2sameconstr.cpp,
+	  /trunk/toulbar2/src/tb2sameconstr.hpp,
+	  /trunk/toulbar2/src/tb2store.hpp,
+	  /trunk/toulbar2/src/tb2treeconstr.cpp,
+	  /trunk/toulbar2/src/tb2treeconstr.hpp,
+	  /trunk/toulbar2/src/tb2types.hpp,
+	  /trunk/toulbar2/src/tb2vacutils.cpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp, /trunk/toulbar2/src/tb2wcsp.hpp,
+	  /trunk/toulbar2/src/tb2wgrammar.cpp,
+	  /trunk/toulbar2/src/tb2wgrammar.hpp,
+	  /trunk/toulbar2/src/toulbar2lib.hpp: [option] new dynamic
+	  programming based global cost functions by CUHK
+
+2014-12-24 10:51  degivry
+
+	* [r992] /trunk/toulbar2/cmake-script/source_files.cmake: [option]
+	  new dynamic programming based global cost functions by CUHK
+
+2014-12-24 10:49  degivry
+
+	* [r991] /trunk/toulbar2/CMakeLists.txt: [option] PLPS global cost
+	  function requires CPLEX
+
+2014-12-24 10:37  degivry
+
+	* [r990] /trunk/toulbar2/misc/script/Makefile: [option] PLPS global
+	  cost function requires CPLEX
+
+2014-12-16 09:46  degivry
+
+	* [r989] /trunk/toulbar2/src/tb2binconstr.hpp,
+	  /trunk/toulbar2/src/tb2constraint.hpp,
+	  /trunk/toulbar2/src/tb2enumvar.cpp,
+	  /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2naryconstr.cpp,
+	  /trunk/toulbar2/src/tb2naryconstr.hpp,
+	  /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2ternaryconstr.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp, /trunk/toulbar2/src/tb2wcsp.hpp,
+	  /trunk/toulbar2/src/toulbar2lib.hpp,
+	  /trunk/toulbar2/src/toulbar2test.cpp: [bug] in order to avoid
+	  integer overflow when summing costs, shrinks forbidden costs in
+	  every cost function based on the difference of worst-case problem
+	  assignment total finite cost plus one minus problem global lower
+	  bound
+
+2014-12-15 17:14  degivry
+
+	* [r988] /trunk/toulbar2/misc/script/rungenerate.sh: [misc]
+	  problem_original .wcsp name has been replaced by problem.wcsp
+
+2014-11-05 11:25  degivry
+
+	* [r981] /trunk/toulbar2/src/tb2wcsp.cpp: [code] DEE performed
+	  before VAC in order to speed up VAC (should be no difference in
+	  lower bound)
+
+2014-10-22 09:50  degivry
+
+	* [r980] /trunk/toulbar2/src/tb2enumvar.cpp: [error] EAC1 queue was
+	  not properly modified in propagateEAC
+
+2014-10-22 09:15  degivry
+
+	* [r979] /trunk/toulbar2/src/tb2ternaryconstr.hpp: [error] correct
+	  a bug in functional ternary constraints
+
+2014-10-22 09:05  degivry
+
+	* [r978] /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2types.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp: [option] --save=filename : dump
+	  current wcsp into filename (see also option -z to select dump
+	  after preprocessing)
+
+2014-10-14 12:48  degivry
+
+	* [r974] /trunk/toulbar2/src/tb2system.hpp: [error] SIZE_MAX
+	  compile error debugging for some linux distribution
+
+2014-10-07 14:37  degivry
+
+	* [r973] /trunk/toulbar2/misc/script/runall.sh,
+	  /trunk/toulbar2/misc/script/rungenerate.sh: [misc] scripts for
+	  debugging
+
+2014-10-07 13:48  degivry
+
+	* [r972] /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp,
+	  /trunk/toulbar2/src/toulbar2lib.hpp: [code] update initial upper
+	  bound to worst-case finite cost plus one
+
+2014-10-07 12:12  degivry
+
+	* [r971] /trunk/toulbar2/src/tb2reader.cpp: [doc] wcsp file format
+	  updated
+
+2014-10-07 12:11  degivry
+
+	* [r970] /trunk/toulbar2/doc/wcspformat.html,
+	  /trunk/toulbar2/doc/wcspformat.txt: [doc] wcsp file format
+	  documentation (extracted from doxygen)
+
+2014-09-04 15:33  degivry
+
+	* [r968] /trunk/toulbar2/src/tb2main.cpp: [option] reader of UAI
+	  format with logarithms instead of probabilities (.LG extension)
+
+2014-09-04 15:31  degivry
+
+	* [r967] /trunk/toulbar2/src/tb2reader.cpp,
+	  /trunk/toulbar2/src/tb2types.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp: [option] reader of UAI format
+	  with logarithms instead of probabilities (.LG extension)
+
+2014-09-04 15:30  degivry
+
+	* [r966] /trunk/toulbar2/src/tb2btlist.hpp,
+	  /trunk/toulbar2/src/tb2store.hpp: [code] trailing stack indexes
+	  representation allows to exploit very large memory computers on
+	  64-bit systems
+
+2014-09-04 13:16  degivry
+
+	* [r965] /trunk/toulbar2/src/tb2btlist.hpp,
+	  /trunk/toulbar2/src/tb2store.hpp: [code] LONGLONG_INDEX
+	  (tb2store.hpp) allows trailing stack indexes to be represented by
+	  long long int (only valid for 64-bit systems) in order to exploit
+	  very large memory computers
+
+2014-08-27 11:33  degivry
+
+	* [r964] /trunk/toulbar2/src/tb2main.cpp: [option] two new options:
+	  -timer=[integer] : CPU timout in seconds ; and -w=[filename] :
+	  writes last solution found in filename (or "sol" if no parameter
+	  is given)
+
+2014-08-27 11:33  degivry
+
+	* [r963] /trunk/toulbar2/doc/ToulBar2.txt: [option] two new
+	  options: -timer=[integer] : CPU timout in seconds ; and
+	  -w=[filename] : writes last solution found in filename (or "sol"
+	  if no parameter is given)
+
+2014-08-27 11:31  degivry
+
+	* [r962] /trunk/toulbar2/src/tb2clusters.cpp,
+	  /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2system.cpp,
+	  /trunk/toulbar2/src/tb2system.hpp,
+	  /trunk/toulbar2/src/tb2types.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp: [option] two new options:
+	  -timer=[integer] : CPU timout in seconds ; and -w=[filename] :
+	  writes last solution found in filename (or "sol" if no parameter
+	  is given)
+
+2014-08-27 09:58  degivry
+
+	* [r961] /trunk/toulbar2/ReadMe.txt: [code] INCOP local search and
+	  peo solvers affiliations updated
+
+2014-08-27 09:57  degivry
+
+	* [r960] /trunk/toulbar2/CMakeLists.txt: [code] for compatibility
+	  with numberjack i(how to find include files)
+
+2014-08-26 16:50  degivry
+
+	* [r959] /trunk/toulbar2/doc/ToulBar2.txt: [code] new version 0.9.7
+	  doc
+
+2014-08-26 15:58  degivry
+
+	* [r958] /trunk/toulbar2/misc/script/Makefile: [code] global
+	  procedure to initialize ToulBar2 global variables, needed by
+	  numberjack/toulbar2 (tb2init)
+
+2014-08-26 15:57  degivry
+
+	* [r957] /trunk/toulbar2/src/xmlcsp/xmlcsp.h: [code] global
+	  procedure to initialize ToulBar2 global variables, needed by
+	  numberjack/toulbar2 (tb2init)
+
+2014-08-26 15:57  degivry
+
+	* [r956] /trunk/toulbar2/src/incop/narycsproblem.cpp: [code] global
+	  procedure to initialize ToulBar2 global variables, needed by
+	  numberjack/toulbar2 (tb2init)
+
+2014-08-26 15:11  degivry
+
+	* [r955] /trunk/toulbar2/src/ilog/iloglue.cpp: [code] global
+	  procedure to initialize ToulBar2 global variables, needed by
+	  numberjack/toulbar2 (tb2init)
+
+2014-08-26 15:11  degivry
+
+	* [r954] /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp,
+	  /trunk/toulbar2/src/toulbar2lib.hpp: [code] global procedure to
+	  initialize ToulBar2 global variables, needed by
+	  numberjack/toulbar2 (tb2init)
+
+2014-08-25 15:47  degivry
+
+	* [r953] /trunk/toulbar2/src/tb2bep.cpp,
+	  /trunk/toulbar2/src/tb2haplotype.cpp,
+	  /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2pedigree.cpp,
+	  /trunk/toulbar2/src/tb2solver.hpp,
+	  /trunk/toulbar2/src/tb2ternaryconstr.cpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp, /trunk/toulbar2/src/tb2wcsp.hpp,
+	  /trunk/toulbar2/src/toulbar2.hpp,
+	  /trunk/toulbar2/src/toulbar2lib.hpp,
+	  /trunk/toulbar2/src/toulbar2test.cpp: [code] rename toulbar2.hpp
+	  into toulbar2lib.hpp for compatibility with numberjack and add
+	  comments to know specific code to change for numberjack
+
+2014-08-25 09:58  degivry
+
+	* [r952] /trunk/toulbar2/ReadMe.txt: [code] INCOP local search
+	  solver affiliation updated
+
+2014-08-22 14:42  degivry
+
+	* [r951] /trunk/toulbar2/src/incop/narycsproblem.cpp,
+	  /trunk/toulbar2/src/incop/narycsproblem.h: [code] INCOP will skip
+	  large arity (>ToulBar2::preprocessNary) cost functions or global
+	  cost functions (INCOP will solve a simplified problem)
+
+2014-08-22 14:41  degivry
+
+	* [r950] /trunk/toulbar2/src/tb2main.cpp: [code] INCOP will skip
+	  large arity (>ToulBar2::preprocessNary) cost functions or global
+	  cost functions (INCOP will solve a simplified problem)
+
+2014-08-22 13:47  degivry
+
+	* [r949] /trunk/toulbar2/src/tb2main.cpp: [code] disallow INCOP if
+	  there are large arity (>ToulBar2::preprocessNary) cost functions
+
+2014-08-22 13:46  degivry
+
+	* [r948] /trunk/toulbar2/src/tb2main.cpp: [code] disallow INCOP if
+	  there are large arity (>ToulBar2::preprocessNary) cost functions
+
+2014-08-22 12:38  degivry
+
+	* [r947] /trunk/toulbar2/src/incop/narycsproblem.cpp: [code]
+	  compatibility with Mac compiler
+
+2014-08-22 12:37  degivry
+
+	* [r946] /trunk/toulbar2/src/tb2reader.cpp: [code] compatibility
+	  with Mac compiler
+
+2014-08-22 09:38  degivry
+
+	* [r945] /trunk/toulbar2/ReadMe.txt: [code] new version 0.9.7 doc
+
+2014-08-22 09:37  degivry
+
+	* [r944] /trunk/toulbar2/src/tb2globaldecomposable.cpp: [code]
+	  remove unused C++ variable
+
+2014-08-22 09:36  degivry
+
+	* [r943] /trunk/toulbar2/src/tb2solver.cpp: [code] add optimality
+	  gap information
+
+2014-08-22 09:36  degivry
+
+	* [r942] /trunk/toulbar2/src/tb2main.cpp: [code] disallow INCOP if
+	  there are non enumerated variable domains (defined by their
+	  bounds only)
+
+2014-08-22 07:46  degivry
+
+	* [r941] /trunk/toulbar2/src/tb2naryconstr.cpp: [assert] remove an
+	  assert which may be not always valid
+
+2014-08-22 07:45  degivry
+
+	* [r940] /trunk/toulbar2/src/tb2constraint.cpp,
+	  /trunk/toulbar2/src/tb2constraint.hpp,
+	  /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2solver.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp, /trunk/toulbar2/src/tb2wcsp.hpp,
+	  /trunk/toulbar2/src/toulbar2.hpp: [code] update current problem
+	  upper bound with the worst-case assignment finite cost after
+	  preprocessing and before INCOP
+
+2014-08-22 07:22  degivry
+
+	* [r939] /trunk/toulbar2/src/incop/narycsproblem.cpp: [code] bound
+	  hard costs to current optimality gap (upper bound-lower bound)
+	  for INCOP and catch contradiction if hard constraints are
+	  violated by INCOP best solution
+
+2014-08-21 15:43  degivry
+
+	* [r938] /trunk/toulbar2/cmake-script/source_files.cmake: [code]
+	  rename incop files using cpp extension
+
+2014-08-21 15:31  degivry
+
+	* [r937] /trunk/toulbar2/src/incop/autotuning2.cc,
+	  /trunk/toulbar2/src/incop/autotuning2.cpp,
+	  /trunk/toulbar2/src/incop/csproblem.cc,
+	  /trunk/toulbar2/src/incop/csproblem.cpp,
+	  /trunk/toulbar2/src/incop/incopalgo.cc,
+	  /trunk/toulbar2/src/incop/incopalgo.cpp,
+	  /trunk/toulbar2/src/incop/incoputil.cc,
+	  /trunk/toulbar2/src/incop/incoputil.cpp,
+	  /trunk/toulbar2/src/incop/narycsproblem.cc,
+	  /trunk/toulbar2/src/incop/narycsproblem.cpp,
+	  /trunk/toulbar2/src/incop/timer.cc,
+	  /trunk/toulbar2/src/incop/timer.cpp: [code] rename incop files
+	  using cpp extension
+
+2014-08-20 09:41  degivry
+
+	* [r936] /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2solver.hpp,
+	  /trunk/toulbar2/src/tb2types.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp: [code] INCOP local search solver
+	  by Bertrand Neveu integrated inside toulbar2
+
+2014-08-20 09:40  degivry
+
+	* [r935] /trunk/toulbar2/src/incop/autotuning2.cc,
+	  /trunk/toulbar2/src/incop/autotuning2.h,
+	  /trunk/toulbar2/src/incop/csproblem.cc,
+	  /trunk/toulbar2/src/incop/csproblem.h,
+	  /trunk/toulbar2/src/incop/incop.h,
+	  /trunk/toulbar2/src/incop/incopalgo.cc,
+	  /trunk/toulbar2/src/incop/incoputil.cc,
+	  /trunk/toulbar2/src/incop/incoputil.h,
+	  /trunk/toulbar2/src/incop/narycsproblem.cc,
+	  /trunk/toulbar2/src/incop/narycsproblem.h: [code] INCOP local
+	  search solver by Bertrand Neveu integrated inside toulbar2
+
+2014-08-20 09:21  degivry
+
+	* [r934] /trunk/toulbar2/src/incop/incopalgo.h: [code] unused incop
+	  files
+
+2014-08-20 09:20  degivry
+
+	* [r933] /trunk/toulbar2/src/incop/makefile,
+	  /trunk/toulbar2/src/incop/narycspmain.cc,
+	  /trunk/toulbar2/src/incop/narycspmain.h: [code] unused incop
+	  files
+
+2014-08-20 09:15  degivry
+
+	* [r932] /trunk/toulbar2/src/tb2boostgraph.cpp: [code] header
+	  message for contribution to variable elimination ordering
+	  heuristics by Cyril Terrioux
+
+2014-08-08 13:36  allouche
+
+	* [r931] /trunk/toulbar2/src/incop,
+	  /trunk/toulbar2/src/incop/autotuning2.cc,
+	  /trunk/toulbar2/src/incop/autotuning2.h,
+	  /trunk/toulbar2/src/incop/csproblem.cc,
+	  /trunk/toulbar2/src/incop/csproblem.h,
+	  /trunk/toulbar2/src/incop/incop.h,
+	  /trunk/toulbar2/src/incop/incopalgo.cc,
+	  /trunk/toulbar2/src/incop/incopalgo.h,
+	  /trunk/toulbar2/src/incop/incoputil.cc,
+	  /trunk/toulbar2/src/incop/incoputil.h,
+	  /trunk/toulbar2/src/incop/makefile,
+	  /trunk/toulbar2/src/incop/narycspmain.cc,
+	  /trunk/toulbar2/src/incop/narycspmain.h,
+	  /trunk/toulbar2/src/incop/narycsproblem.cc,
+	  /trunk/toulbar2/src/incop/narycsproblem.h,
+	  /trunk/toulbar2/src/incop/timer.cc,
+	  /trunk/toulbar2/src/incop/timer.h: [code] INCOP local Search
+	  solver is now include in toulbar2 solver
+
+2014-08-08 13:34  allouche
+
+	* [r930] /trunk/toulbar2/cmake-script/source_files.cmake,
+	  /trunk/toulbar2/src/tb2main.cpp: [code] INCOP local Search solver
+	  is now include in toulbar2 solver
+
+2014-08-08 13:22  degivry
+
+	* [r929] /trunk/toulbar2/src/tb2wcsp.cpp: [code] new tree
+	  decomposition heuristics only with BOOST compile flag ON
+
+2014-08-08 12:57  degivry
+
+	* [r928] /trunk/toulbar2/src/tb2wcsp.cpp: [code] force static cast
+	  on elimVarOrder global option
+
+2014-08-08 12:51  degivry
+
+	* [r927] /trunk/toulbar2/src/tb2wcsp.cpp: [code] force static cast
+	  on elimVarOrder global option
+
+2014-08-08 12:47  degivry
+
+	* [r926] /trunk/toulbar2/src/tb2wcsp.cpp: [code] force static cast
+	  on elimVarOrder global option
+
+2014-08-07 17:05  degivry
+
+	* [r925] /trunk/toulbar2/src/tb2clusters.cpp: [code] code
+	  optimization for building a tree decomposition
+
+2014-08-07 15:45  degivry
+
+	* [r924] /trunk/toulbar2/src/tb2boostgraph.cpp,
+	  /trunk/toulbar2/src/tb2main.cpp, /trunk/toulbar2/src/tb2wcsp.cpp,
+	  /trunk/toulbar2/src/tb2wcsp.hpp: [option] tree decomposition
+	  greedy heuristics (from C. Terrioux's peo code) included in
+	  toulbar2
+	  -O=[negative integer] : build a tree decomposition (if BTD-like
+	  and/or variable elimination methods are used) and also a
+	  compatible DAC ordering using
+	  (-1) maximum cardinality search ordering, (-2) minimum degree
+	  ordering, (-3) minimum fill-in ordering, (-4) maximum spanning
+	  tree orderin
+
+2014-07-29 16:29  degivry
+
+	* [r923] /trunk/toulbar2/src/tb2ternaryconstr.cpp,
+	  /trunk/toulbar2/src/tb2ternaryconstr.hpp: [code] moves template
+	  definitions from cpp to header files (also for tb2binconstr.hpp)
+
+2014-07-29 16:28  degivry
+
+	* [r922] /trunk/toulbar2/src/tb2alldiffconstr.cpp,
+	  /trunk/toulbar2/src/tb2alldiffconstr.hpp,
+	  /trunk/toulbar2/src/tb2binconstr.cpp,
+	  /trunk/toulbar2/src/tb2binconstr.hpp,
+	  /trunk/toulbar2/src/tb2flowbasedconstr.cpp,
+	  /trunk/toulbar2/src/tb2flowbasedconstr.hpp,
+	  /trunk/toulbar2/src/tb2globalcardinalityconstr.hpp,
+	  /trunk/toulbar2/src/tb2globalconstr.cpp,
+	  /trunk/toulbar2/src/tb2graph.cpp,
+	  /trunk/toulbar2/src/tb2graph.hpp,
+	  /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2regularconstr.hpp,
+	  /trunk/toulbar2/src/tb2sameconstr.hpp,
+	  /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2system.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp: [code] cleanup header
+	  dependencies and remove DOS/non ASCII chars
+
+2014-07-07 15:51  degivry
+
+	* [r921] /trunk/toulbar2/src/tb2main.cpp: [code] 3 runs of local
+	  search by default..
+
+2014-07-04 15:44  degivry
+
+	* [r920] /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2solver.cpp: [feature] option -l=[integer]
+	  : limited discrepancy search, use a negative value to stop the
+	  search after the given absolute number of discrepancies has been
+	  explored
+
+2014-07-02 14:01  degivry
+
+	* [r919] /trunk/toulbar2/src/tb2main.cpp: [code] update copyright
+	  year to 2014
+
+2014-06-30 11:01  degivry
+
+	* [r918] /trunk/toulbar2/src/tb2main.cpp: [bug] wrong type for
+	  string constant when using flag for UAI Evaluation
+
+2014-06-26 16:53  degivry
+
+	* [r917] /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp: [feature] new flag
+	  ToulBar2::uaieval in order to output solution in UAI format even
+	  if input file is in WCSP format, allowing to presolve using INCOP
+	  local search.
+
+2014-06-26 16:52  degivry
+
+	* [r916] /trunk/toulbar2/src/tb2reader.cpp: [code] improve initial
+	  upper bound for input problem in UAI format
+
+2014-06-26 12:15  degivry
+
+	* [r915] /trunk/toulbar2/src/tb2wcsp.cpp: [bug] correct a bug on
+	  initial domain sizes when dumping a UAI-format problem with
+	  evidence into a WCSP-format file in original mode (-z=1)
+
+2014-06-25 08:45  degivry
+
+	* [r914] /trunk/toulbar2/src/tb2clusters.cpp,
+	  /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2reader.cpp,
+	  /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2types.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.cpp: [feature] new flag
+	  ToulBar2::uaieval in order to output solution in UAI format even
+	  if input file is in WCSP format, allowing to presolve using INCOP
+	  local search.
+
+2014-06-25 07:51  degivry
+
+	* [r913] /trunk/toulbar2/src/SimpleOpt.h: [bug] change memcpy into
+	  memmove avoiding source and destination overlap errors during
+	  command line parsing
+
+2014-06-24 15:22  degivry
+
+	* [r912] /trunk/toulbar2/src/tb2abstractconstr.hpp,
+	  /trunk/toulbar2/src/tb2boostgraph.cpp,
+	  /trunk/toulbar2/src/tb2constraint.hpp,
+	  /trunk/toulbar2/src/tb2enumvar.cpp,
+	  /trunk/toulbar2/src/tb2main.cpp,
+	  /trunk/toulbar2/src/tb2solver.cpp,
+	  /trunk/toulbar2/src/tb2ternaryconstr.cpp,
+	  /trunk/toulbar2/src/tb2ternaryconstr.hpp,
+	  /trunk/toulbar2/src/tb2variable.hpp,
+	  /trunk/toulbar2/src/tb2wcsp.hpp: [bug] dead-end elimination is
+	  not performed before all the problem is loaded including unary
+	  cost functions (add DEE_ flag).
+	  [code] changing DAC order (setDACOrder method) automatically
+	  propagates.
+
+2014-06-24 15:19  degivry
+
+	* [r911] /trunk/toulbar2/src/tb2wcsp.cpp: [feature] in
+	  preprocessing, iterates DAC-based propagation with current DAC
+	  order and its reverse until a fix point is reached or lower bound
+	  increased is too small (less than 0.5%)
+	  [feature] in preprocessing, iterates ternary cost function
+	  completion (option -t) until a fix point is reached or lower
+	  bound increased is too small (less than 0.5%)
+
+2014-06-24 15:13  degivry
+
+	* [r910] /trunk/toulbar2/src/tb2types.hpp: [bug] divide initial
+	  maximum representable cost by a constant to try to avoid
+	  arithmetic overflows when dealing with costs
+
+2014-06-24 15:11  degivry
+
+	* [r909] /trunk/toulbar2/src/tb2vac.cpp: [code] output number of
+	  "fixed" variables (having only one zero-cost value) after doing
+	  VAC
+
+2014-06-24 15:10  degivry
+
+	* [r908] /trunk/toulbar2/src/tb2variable.cpp: [code] improve
+	  efficiency of getTrueDegree (faster preprocessing)
+
+2014-01-30 16:26  allouche
+
+	* [r906] /trunk/toulbar2/src/tb2system.hpp: [code] modification of
+	  simpleopt SO_MAX_ARGS and toulbar2 release tag include in the
+	  toulbar2 binary
+
+2014-01-30 16:13  allouche
+
+	* [r905] /trunk/toulbar2/CMakeLists.txt,
+	  /trunk/toulbar2/ToulbarVersion.hpp.in,
+	  /trunk/toulbar2/cmake-script/init-version.cmake,
+	  /trunk/toulbar2/src/tb2wcsp.cpp: [code] modification of simpleopt
+	  SO_MAX_ARGS and toulbar2 release tag include in the toulbar2
+	  binary
+
+2014-01-21 16:35  allouche
+
+	* [r904] /trunk/toulbar2/src/SimpleGlob.h,
+	  /trunk/toulbar2/src/SimpleOpt.h: [code] command line interface
+	  update : Version 3.6, fix for Issue 2: invalid clumped option isn
+	  t returned in OptionText
+
+2014-01-17 13:51  allouche
+
+	* [r903] /trunk/toulbar2/CMakeLists.txt: [code] release number
+	  changed from 0.9.6 to 0.9.7
+
+2014-01-15 09:02  degivry
+
+	* [r902] /trunk/toulbar2/src/tb2variable.cpp: [error] getTrueDegree
+	  returns an approximate result if variable's constraint list too
+	  large (otherwise it is too slow to compute the exact result)
+
+2013-12-24 15:53  degivry
+
+	* [r894] /trunk/toulbar2/src/tb2wcsp.hpp: [bug] DEE cannot be
+	  performed before the whole problem is read
+
