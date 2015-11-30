@@ -1,3 +1,3 @@
 #Download and unzip pre-run synthetic test cases
-wget  https://www.dropbox.com/s/8z5axf978hsczmx/BarrierFW_NIPS15_TestCases.tar.bz2
-tar -xvjf BarrierFW_NIPS15_TestCases.tar.bz2
+wget  http://sontaglab.cs.nyu.edu/BarrierFW_NIPS15/TestCases.tar.bz2
+tar -xvjf TestCases.tar.bz2

@@ -52,29 +52,21 @@ This is not performed by default.
 This code involves several moving parts and can be cumbersome. 
 Future: The code would best be implemented in OpenGM's framework where LP/ILP/MAP solvers are readily available 
 
-Create a folder with the name of the experiment (eg. SyntheticGrids_5x5)
-
-Create a subfolder titled models
+1] Create a folder with the name of the experiment (eg. SyntheticGrids_5x5)
+2] Create a subfolder titled models containing .uai and .uai.evid files 
+3] In ``experiments", create a config file and run experiment 
 
 ## Test Cases
+The repository contains the shell files for the Synthetic test cases. To download 
+the pre-run Synthetic test cases, see the file getSyntheticPreRun.sh.
+To download the shell files for the Chinese Characters, see getChineseChar.sh
+
 All instances that require approximate MAP will require OpenGM to be installed. See opengm-tools for
 more details. 
 
-Synthetic Results
-The github repository contains the bare minimum required for each of the Synthetic files.
-
-If you want to download all the Synthetic test cases without having to run them, 
-use the following link and run uncompress.sh
-https://www.dropbox.com/s/8z5axf978hsczmx/BarrierFW_NIPS15_TestCases.tar.bz2?dl=0
-
-Unfortunately the UAI files containing the models for the ChineseCharacters are too large (~2G) for github
-and so the shell directories have been made available here. 
-https://www.dropbox.com/s/9oxtoxfm2y2298s/BarrierFW_NIPS15_ChineseChar.tar.bz2?dl=0
-
-To download this file, run getChineseChar.sh
-
-There are detailed instructions on how to run and get the results using approximate MAP in folder's README file.
-
+## Plots
+After running the experiments, see the notebooks in the ipynb folder about how to get plots in the figure/visualize
+chinese character examples
 
 ## References
 - [libDAI](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
