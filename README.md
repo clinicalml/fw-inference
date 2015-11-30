@@ -1,7 +1,5 @@
 # fw-inference
 
-NOTE: This repository is still under construction!!!
-
 This contains code corresponding to the paper
 ```
 Barrier Frank-Wolfe for Marginal Inference
@@ -65,6 +63,11 @@ more details.
 ## Plots
 After running the experiments, see the notebooks in the ipynb folder about how to get plots in the figure/visualize
 chinese character examples
+
+## Repository Status
+```
+Status of Repository: Ready to use. Instructions could still use some detail
+```
 
 ## References
 - [libDAI](https://staff.fnwi.uva.nl/j.m.mooij/libDAI/)
