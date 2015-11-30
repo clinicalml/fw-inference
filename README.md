@@ -12,6 +12,7 @@ NIPS 2015
 ## Requirements
 The code is built to run in python2.7 but interfaces with various open-source packages and libraries. 
 Numpy and Scipy are used for the matrix computations. 
+Gurobi is used to solve Integer Linear Programs (or LPs)
 
 The code also needs the following packages installed:
 * [Required: Gurobi - Exact MAP solver](http://www.gurobi.com/)
@@ -27,7 +28,6 @@ Attached the source for toulbar2.0.9.7.0
 Contains a small modification to the way the output files are handled.
 To see modifications, look at lines 1630-1650 in src/tb2main.cpp
 ```
-
 
 * [Optional: OpenGM - Approximate MAP solvers](http://hci.iwr.uni-heidelberg.de/opengm2/)
 ```
@@ -49,19 +49,19 @@ This is not performed by default.
 
 
 ## Instructions
-This code involves several moving parts and cumbersome. 
-Ideally, the code would best be implemented in OpenGM's framework using Gurobi for LP/ILP where applicable. 
+This code involves several moving parts and can be cumbersome. 
+Future: The code would best be implemented in OpenGM's framework where LP/ILP/MAP solvers are readily available 
 
-Create a folder with the name of the experiment
-Create a subfolder with 
+Create a folder with the name of the experiment (eg. SyntheticGrids_5x5)
+
+Create a subfolder titled models
 
 ## Test Cases
-All instances that require approximate MAP will require OpenGM to be installed.
+All instances that require approximate MAP will require OpenGM to be installed. See opengm-tools for
+more details. 
 
 Synthetic Results
 The github repository contains the bare minimum required for each of the Synthetic files.
-
-
 
 If you want to download all the Synthetic test cases without having to run them, 
 use the following link and run uncompress.sh
