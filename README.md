@@ -2,7 +2,6 @@
 
 NOTE: This repository is still under construction!!!
 
-
 This contains code corresponding to the paper
 ```
 Barrier Frank-Wolfe for Marginal Inference
@@ -47,19 +46,18 @@ This is not performed by default.
 3) Build libDAI normally. 
 ```
 
-
 ## Instructions
 This code involves several moving parts and can be cumbersome. 
 Future: The code would best be implemented in OpenGM's framework where LP/ILP/MAP solvers are readily available 
 
 1] Create a folder with the name of the experiment (eg. SyntheticGrids_5x5)
 2] Create a subfolder titled models containing .uai and .uai.evid files 
-3] In ``experiments", create a config file and run experiment 
+3] In experiments, create a config file and run experiment (See existing files for examples)
 
 ## Test Cases
 The repository contains the shell files for the Synthetic test cases. To download 
 the pre-run Synthetic test cases, see the file getSyntheticPreRun.sh.
-To download the shell files for the Chinese Characters, see getChineseChar.sh
+To download the shell files for the Chinese Characters, see the file getChineseChar.sh
 
 All instances that require approximate MAP will require OpenGM to be installed. See opengm-tools for
 more details. 
